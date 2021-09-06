@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7939BEDB26E5AC6A00BB28D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939BEDA26E5AC6A00BB28D6 /* AppDelegate.swift */; };
+		7939BEDD26E5AC6A00BB28D6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939BEDC26E5AC6A00BB28D6 /* SceneDelegate.swift */; };
+		7939BEDF26E5AC6A00BB28D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939BEDE26E5AC6A00BB28D6 /* ViewController.swift */; };
+		7939BEE226E5AC6A00BB28D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7939BEE026E5AC6A00BB28D6 /* Main.storyboard */; };
+		7939BEE426E5AC6B00BB28D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7939BEE326E5AC6B00BB28D6 /* Assets.xcassets */; };
+		7939BEE726E5AC6B00BB28D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7939BEE526E5AC6B00BB28D6 /* LaunchScreen.storyboard */; };
+		7939BEF226E5AC6B00BB28D6 /* Flix_pengTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939BEF126E5AC6B00BB28D6 /* Flix_pengTests.swift */; };
+		7939BEFD26E5AC6B00BB28D6 /* Flix_pengUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7939BEFC26E5AC6B00BB28D6 /* Flix_pengUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7939BEEE26E5AC6B00BB28D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7939BECF26E5AC6A00BB28D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7939BED626E5AC6A00BB28D6;
+			remoteInfo = Flix_peng;
+		};
+		7939BEF926E5AC6B00BB28D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7939BECF26E5AC6A00BB28D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7939BED626E5AC6A00BB28D6;
+			remoteInfo = Flix_peng;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7939BED726E5AC6A00BB28D6 /* Flix_peng.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flix_peng.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939BEDA26E5AC6A00BB28D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7939BEDC26E5AC6A00BB28D6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7939BEDE26E5AC6A00BB28D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7939BEE126E5AC6A00BB28D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7939BEE326E5AC6B00BB28D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7939BEE626E5AC6B00BB28D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7939BEE826E5AC6B00BB28D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7939BEED26E5AC6B00BB28D6 /* Flix_pengTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flix_pengTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939BEF126E5AC6B00BB28D6 /* Flix_pengTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flix_pengTests.swift; sourceTree = "<group>"; };
+		7939BEF326E5AC6B00BB28D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7939BEF826E5AC6B00BB28D6 /* Flix_pengUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Flix_pengUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7939BEFC26E5AC6B00BB28D6 /* Flix_pengUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flix_pengUITests.swift; sourceTree = "<group>"; };
+		7939BEFE26E5AC6B00BB28D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7939BED426E5AC6A00BB28D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEEA26E5AC6B00BB28D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEF526E5AC6B00BB28D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7939BECE26E5AC6A00BB28D6 = {
+			isa = PBXGroup;
+			children = (
+				7939BED926E5AC6A00BB28D6 /* Flix_peng */,
+				7939BEF026E5AC6B00BB28D6 /* Flix_pengTests */,
+				7939BEFB26E5AC6B00BB28D6 /* Flix_pengUITests */,
+				7939BED826E5AC6A00BB28D6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7939BED826E5AC6A00BB28D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7939BED726E5AC6A00BB28D6 /* Flix_peng.app */,
+				7939BEED26E5AC6B00BB28D6 /* Flix_pengTests.xctest */,
+				7939BEF826E5AC6B00BB28D6 /* Flix_pengUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7939BED926E5AC6A00BB28D6 /* Flix_peng */ = {
+			isa = PBXGroup;
+			children = (
+				7939BEDA26E5AC6A00BB28D6 /* AppDelegate.swift */,
+				7939BEDC26E5AC6A00BB28D6 /* SceneDelegate.swift */,
+				7939BEDE26E5AC6A00BB28D6 /* ViewController.swift */,
+				7939BEE026E5AC6A00BB28D6 /* Main.storyboard */,
+				7939BEE326E5AC6B00BB28D6 /* Assets.xcassets */,
+				7939BEE526E5AC6B00BB28D6 /* LaunchScreen.storyboard */,
+				7939BEE826E5AC6B00BB28D6 /* Info.plist */,
+			);
+			path = Flix_peng;
+			sourceTree = "<group>";
+		};
+		7939BEF026E5AC6B00BB28D6 /* Flix_pengTests */ = {
+			isa = PBXGroup;
+			children = (
+				7939BEF126E5AC6B00BB28D6 /* Flix_pengTests.swift */,
+				7939BEF326E5AC6B00BB28D6 /* Info.plist */,
+			);
+			path = Flix_pengTests;
+			sourceTree = "<group>";
+		};
+		7939BEFB26E5AC6B00BB28D6 /* Flix_pengUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7939BEFC26E5AC6B00BB28D6 /* Flix_pengUITests.swift */,
+				7939BEFE26E5AC6B00BB28D6 /* Info.plist */,
+			);
+			path = Flix_pengUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7939BED626E5AC6A00BB28D6 /* Flix_peng */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939BF0126E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_peng" */;
+			buildPhases = (
+				7939BED326E5AC6A00BB28D6 /* Sources */,
+				7939BED426E5AC6A00BB28D6 /* Frameworks */,
+				7939BED526E5AC6A00BB28D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flix_peng;
+			productName = Flix_peng;
+			productReference = 7939BED726E5AC6A00BB28D6 /* Flix_peng.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7939BEEC26E5AC6B00BB28D6 /* Flix_pengTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939BF0426E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_pengTests" */;
+			buildPhases = (
+				7939BEE926E5AC6B00BB28D6 /* Sources */,
+				7939BEEA26E5AC6B00BB28D6 /* Frameworks */,
+				7939BEEB26E5AC6B00BB28D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7939BEEF26E5AC6B00BB28D6 /* PBXTargetDependency */,
+			);
+			name = Flix_pengTests;
+			productName = Flix_pengTests;
+			productReference = 7939BEED26E5AC6B00BB28D6 /* Flix_pengTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7939BEF726E5AC6B00BB28D6 /* Flix_pengUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7939BF0726E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_pengUITests" */;
+			buildPhases = (
+				7939BEF426E5AC6B00BB28D6 /* Sources */,
+				7939BEF526E5AC6B00BB28D6 /* Frameworks */,
+				7939BEF626E5AC6B00BB28D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7939BEFA26E5AC6B00BB28D6 /* PBXTargetDependency */,
+			);
+			name = Flix_pengUITests;
+			productName = Flix_pengUITests;
+			productReference = 7939BEF826E5AC6B00BB28D6 /* Flix_pengUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7939BECF26E5AC6A00BB28D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7939BED626E5AC6A00BB28D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					7939BEEC26E5AC6B00BB28D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7939BED626E5AC6A00BB28D6;
+					};
+					7939BEF726E5AC6B00BB28D6 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 7939BED626E5AC6A00BB28D6;
+					};
+				};
+			};
+			buildConfigurationList = 7939BED226E5AC6A00BB28D6 /* Build configuration list for PBXProject "Flix_peng" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7939BECE26E5AC6A00BB28D6;
+			productRefGroup = 7939BED826E5AC6A00BB28D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7939BED626E5AC6A00BB28D6 /* Flix_peng */,
+				7939BEEC26E5AC6B00BB28D6 /* Flix_pengTests */,
+				7939BEF726E5AC6B00BB28D6 /* Flix_pengUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7939BED526E5AC6A00BB28D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939BEE726E5AC6B00BB28D6 /* LaunchScreen.storyboard in Resources */,
+				7939BEE426E5AC6B00BB28D6 /* Assets.xcassets in Resources */,
+				7939BEE226E5AC6A00BB28D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEEB26E5AC6B00BB28D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEF626E5AC6B00BB28D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7939BED326E5AC6A00BB28D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939BEDF26E5AC6A00BB28D6 /* ViewController.swift in Sources */,
+				7939BEDB26E5AC6A00BB28D6 /* AppDelegate.swift in Sources */,
+				7939BEDD26E5AC6A00BB28D6 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEE926E5AC6B00BB28D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939BEF226E5AC6B00BB28D6 /* Flix_pengTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7939BEF426E5AC6B00BB28D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7939BEFD26E5AC6B00BB28D6 /* Flix_pengUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7939BEEF26E5AC6B00BB28D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7939BED626E5AC6A00BB28D6 /* Flix_peng */;
+			targetProxy = 7939BEEE26E5AC6B00BB28D6 /* PBXContainerItemProxy */;
+		};
+		7939BEFA26E5AC6B00BB28D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7939BED626E5AC6A00BB28D6 /* Flix_peng */;
+			targetProxy = 7939BEF926E5AC6B00BB28D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7939BEE026E5AC6A00BB28D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7939BEE126E5AC6A00BB28D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7939BEE526E5AC6B00BB28D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7939BEE626E5AC6B00BB28D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7939BEFF26E5AC6B00BB28D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7939BF0026E5AC6B00BB28D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7939BF0226E5AC6B00BB28D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_peng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-peng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7939BF0326E5AC6B00BB28D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_peng/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-peng";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7939BF0526E5AC6B00BB28D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_pengTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-pengTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix_peng.app/Flix_peng";
+			};
+			name = Debug;
+		};
+		7939BF0626E5AC6B00BB28D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_pengTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-pengTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flix_peng.app/Flix_peng";
+			};
+			name = Release;
+		};
+		7939BF0826E5AC6B00BB28D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_pengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-pengUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flix_peng;
+			};
+			name = Debug;
+		};
+		7939BF0926E5AC6B00BB28D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flix_pengUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codepath.Flix-pengUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flix_peng;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7939BED226E5AC6A00BB28D6 /* Build configuration list for PBXProject "Flix_peng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939BEFF26E5AC6B00BB28D6 /* Debug */,
+				7939BF0026E5AC6B00BB28D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7939BF0126E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_peng" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939BF0226E5AC6B00BB28D6 /* Debug */,
+				7939BF0326E5AC6B00BB28D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7939BF0426E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_pengTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939BF0526E5AC6B00BB28D6 /* Debug */,
+				7939BF0626E5AC6B00BB28D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7939BF0726E5AC6B00BB28D6 /* Build configuration list for PBXNativeTarget "Flix_pengUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7939BF0826E5AC6B00BB28D6 /* Debug */,
+				7939BF0926E5AC6B00BB28D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7939BECF26E5AC6A00BB28D6 /* Project object */;
+}
