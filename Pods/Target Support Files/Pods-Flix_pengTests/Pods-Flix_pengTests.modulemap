@@ -1,0 +1,6 @@
+framework module Pods_Flix_pengTests {
+  umbrella header "Pods-Flix_pengTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

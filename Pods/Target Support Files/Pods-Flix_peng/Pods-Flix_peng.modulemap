@@ -1,0 +1,6 @@
+framework module Pods_Flix_peng {
+  umbrella header "Pods-Flix_peng-umbrella.h"
+
+  export *
+  module * { export * }
+}
